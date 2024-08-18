@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jstech.fluenterp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".masterdata.ActivityCustomerCreate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".masterdata.ActivityCustomerDisplay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sd.ActivitySalesOrderCreate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mm.ActivityMaterialDisplay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".masterdata.ActivityCustomerModify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sd.ActivitySalesOrderList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".masterdata.ActivityEmployeeCreate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".masterdata.ActivityEmployeeModify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".masterdata.ActivityEmployeeDisplay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hr.ActivityDisplayEmployeeList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mm.ActivityMaterialCreate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mm.ActivityMaterialModify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".misc.GraphicalAnalysisActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".misc.AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".misc.ServerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sd.ActivitySalesOrderModify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sd.ActivitySalesOrderDisplay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".misc.TCodeHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".misc.RequestAccountCredentialsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mm.ActivityCurrentStock"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mm.ActivityDisplayMaterialsList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".purchasing.ActivityPurchaseOrderCreate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".purchasing.ActivityPurchaseOrderModify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".purchasing.ActivityPurchaseOrderDisplay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dd.ActivityCheckOrderStatus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".purchasing.ActivityDisplaySellers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebViewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".purchasing.ChangePurchaseOrderStatus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".misc.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jstech.fluenterp.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
